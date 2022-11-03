@@ -1,0 +1,23 @@
+.card-details {
+  width: 600px;
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  margin: 15px auto;
+  padding: 15px;
+  transition: all 0.4s;
+}
+
+.card-details__header {
+  margin: 0 0 35px;
+  font-size: 2rem;
+}
+
+.card-details__price {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.card-details__content {
+  font-size: 1.15rem;
+}
