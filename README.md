@@ -4,7 +4,7 @@
 React.js, React Router, MobX
 
 ## Deployment
-https://test-tasks-a9w6i22yl-auddax.vercel.app
+https://test-tasks-pi.vercel.app
 
 ## Screenshots
 <img width="1555" alt="main-page" src="https://user-images.githubusercontent.com/9900821/200184320-625cc96e-1e8b-4ee6-9497-a7239973be21.png">
