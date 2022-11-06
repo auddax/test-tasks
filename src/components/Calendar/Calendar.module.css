@@ -1,0 +1,25 @@
+.calendar__header {
+  margin: 10px 0;
+}
+
+.calendar__header ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: right;
+}
+
+.calendar__header ul {
+  list-style-type: none;
+}
+
+.calendar__header ul li {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.calendar__body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}

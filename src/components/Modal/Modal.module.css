@@ -1,0 +1,71 @@
+.modal {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+  max-width: 500px;
+  padding: 15px 25px;
+  border: 1px solid lightgray;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 100;
+  animation-name: animatetop;
+  animation-duration: 0.5s;
+}
+
+.reminder {
+  font-size: 1.15rem;
+}
+
+.reminder__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 5px;
+}
+
+/* .reminder__text {
+  width: 90%;
+} */
+
+.reminder__close {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.reminder__close:hover {
+  background-color: #E9ECEF;
+}
+
+.crossmark {
+  cursor: pointer;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: -300px;
+    opacity: 0;
+  }
+}
